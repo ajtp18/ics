@@ -56,6 +56,5 @@ class TestEvent(unittest.TestCase):
         self.assertTrue(self.event_1.equals(self.event_2))
         self.assertFalse(self.event_2.equals(self.event_3))
 
-
 if __name__ == '__main__':
     unittest.main()
